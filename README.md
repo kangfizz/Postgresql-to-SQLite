@@ -27,6 +27,6 @@ c.將 " ), "取代為 " ); "
 ####直接放入Sqlite資料庫裏面  
 進入sqlite資料庫:sqlite3 dbname.sqlite3  
 (dbname此時為db,所以這時候應該是**sqlite3 db.sqlite3**)  
-進入後,輸入.read /home/jerry/test7.sql (我放test7.sql的位置為/home/jerry)  
+進入後,輸入**.read /home/jerry/test7.sql** (我放test7.sql的位置為/home/jerry)  
 等一下時間即可成功(大概3~5分)  
-最後可以用SELECT name FROM navi_address WHERE keyword='0';  檢查
+最後可以用**SELECT name FROM navi_address WHERE keyword='0';**  檢查
