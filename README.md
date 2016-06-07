@@ -12,7 +12,7 @@ This topic is talking about how to move your postgresql table and data to your S
 打開Sublime Text  
 對test3.sql做修改,以下為需要修改 
 ####A.因為sqlite不會讀COMMENT以及後面的E,所以要把他們全部去掉  
- 用Sublime裡面,crtl+H(取代) 將" E' "取代為 " ' "  
+ 用Sublime裡面,輸入**crtl+H**(取代) 將" E' "取代為 " ' "  
 ####B.對創建TABLE指令做更動:  
  CREATE TABLE IF NOT EXISTS...那邊去除 "COMMENT" 跟 " ' ' "    
 並且在最後加入CONSTRAINT navi_address_pk PRIMARY KEY ("id")
